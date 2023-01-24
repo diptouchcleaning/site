@@ -1015,7 +1015,12 @@ pre {
   .offset-md-10 {
     margin-left: 83.33333%; }
   .offset-md-11 {
-    margin-left: 91.66667%; } }
+    margin-left: 91.66667%; }
+
+    /* .my-team1{
+      display: block;
+    } */
+   }
 
 @media (min-width: 992px) {
   .col-lg {
@@ -9720,4 +9725,11 @@ textarea.form-control {
       display: flex;
       justify-content: center;
     }
+
+    @media only screen and (max-width: 767px) { 
+      #myteam{
+        display: block;
+      }
+    }
+
   
